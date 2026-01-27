@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kosmetické studio Iva</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header / Navigace -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <nav class="nav" aria-label="Hlavní navigace">
+          <a class="nav-link" href="#cenik">Ceník</a>
+          <a class="nav-link" href="#kontakt">Kontakt</a>
+        </nav>
+
+        <button
+          class="burger"
+          type="button"
+          aria-label="Otevřít menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobil menu -->
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <div class="container mobile-menu-inner">
+          <a class="mobile-link" href="#cenik">Ceník</a>
+          <a class="mobile-link" href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div
+        class="hero-bg"
+        role="img"
+        aria-label="Interiér kosmetického studia"
+      ></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <h1>Kosmetické studio Iva</h1>
+        <p class="hero-subtitle">
+          Individuální kosmetická péče a relax v Přerově
+        </p>
+
+        <a class="btn btn-primary" href="#kontakt"> Objednat se telefonicky </a>
+      </div>
+    </section>
+
+    <!-- Sluzby -->
+    <section class="section" id="sluzby">
+      <div class="container">
+        <div class="section-title">
+          <h2>Služby</h2>
+          <div class="title-accent"></div>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="service-card">
+            <div
+              class="service-img"
+              style="background-image: url(&quot;img/osetreni pleti.png&quot;)"
+              aria-hidden="true"
+            ></div>
+            <h3>Kosmetické ošetření pleti</h3>
+            <p>
+              Profesionální kosmetické ošetření všech typů pleti. Kombinuji
+              ruční čištění s moderními přístrojovými metodami a péči vždy
+              přizpůsobuji aktuálním potřebám vaší pleti.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div
+              class="service-img"
+              style="background-image: url(&quot;img/masaze.png&quot;)"
+              aria-hidden="true"
+            ></div>
+            <h3>Regenerace a masáže</h3>
+            <p>
+              Relaxační a regenerační ošetření zaměřené na obnovu pleti,
+              uvolnění napětí a podporu přirozených regeneračních procesů.
+              Součástí mohou být masáže obličeje, krku a dekoltu.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div
+              class="service-img"
+              style="background-image: url(&quot;img/rasa a oboci.png&quot;)"
+              aria-hidden="true"
+            ></div>
+            <h3>Doplňkové kosmetické služby</h3>
+            <p>
+              Úprava a barvení obočí a řas, depilace obličeje a další kosmetické
+              úkony jako součást ošetření nebo samostatně dle domluvy.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Citat -->
+    <section class="quote">
+      <div class="container quote-inner">
+        <div class="quote-mark">“</div>
+        <p class="quote-text">
+          Každá pleť je jiná. Péči vždy přizpůsobuji individuálním potřebám a
+          aktuálnímu stavu pokožky.
+        </p>
+
+        <!-- <div class="quote-person">
+          <img class="avatar" src="img/profil Iva.png" alt="Portrét" />
+          <div class="quote-name">Iva Postová</div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- O mne -->
+    <section class="section about" id="omne">
+      <div class="container about-inner">
+        <div class="about-text">
+          <div class="kicker">O MNĚ</div>
+          <h2>Místo, kde se péče o pleť<br />spojuje s klidem a relaxem</h2>
+          <p>
+            Jmenuji se Iva a nabízím profesionální kosmetickou péči zaměřenou na
+            zdraví a přirozenou krásu pleti. Při ošetřeních kombinuji ruční
+            techniky s moderními kosmetickými metodami a pracuji s kvalitními
+            přírodními produkty. Mým cílem je, aby každá návštěva byla příjemným
+            zážitkem a chvílí klidu, kdy si můžete odpočinout a dopřát péči své
+            pleti.
+          </p>
+        </div>
+
+        <div class="about-image" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- Cena a Sluzby -->
+    <section class="section pricing" id="cenik">
+      <div class="container">
+        <div class="section-title">
+          <h2>Ceník</h2>
+          <div class="title-accent"></div>
+        </div>
+
+        <div class="price-list">
+          <div class="price-card">
+            <div class="price-head">
+              <h3>Základní kosmetické ošetření</h3>
+              <div class="price">650 Kč</div>
+            </div>
+            <p>
+              Základní ošetření pleti zaměřené na její důkladné vyčištění,
+              hydrataci a celkové osvěžení. Péče je vždy přizpůsobena aktuálním
+              potřebám pleti.
+            </p>
+          </div>
+
+          <div class="price-card">
+            <div class="price-head">
+              <h3>Ošetření pro zralou a náročnou pleť</h3>
+              <div class="price">850 Kč</div>
+            </div>
+            <p>
+              Komplexní kosmetické ošetření určené pro zralou nebo náročnou
+              pleť. Zaměřuje se na regeneraci, výživu a zlepšení celkového
+              vzhledu pleti.
+            </p>
+          </div>
+
+          <div class="price-card">
+            <div class="price-head">
+              <h3>Hloubkové ošetření pro zralou a náročnou pleť</h3>
+              <div class="price">950 Kč</div>
+            </div>
+            <p>
+              Intenzivní kosmetická péče s využitím moderních metod a aktivních
+              látek. Ošetření je zaměřené na hlubší regeneraci pleti a její
+              dlouhodobé zlepšení.
+            </p>
+          </div>
+
+          <div class="addons">
+            <h3>Doplňkové služby</h3>
+            <div class="addon-row">
+              <span>Úprava obočí</span>
+              <strong>80 Kč</strong>
+            </div>
+            <div class="addon-row">
+              <span>Barvení obočí</span>
+              <strong>80 Kč</strong>
+            </div>
+            <div class="addon-row">
+              <span>Barvení řas</span>
+              <strong>120 Kč</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section contact" id="kontakt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Kontakt</h2>
+          <div class="title-accent"></div>
+        </div>
+
+        <p class="contact-lead">
+          Pro objednání mě prosím kontaktujte telefonicky.<br />
+          Ráda se vám budu věnovat a společně vybereme péči, která bude vaší
+          pleti nejvíce vyhovovat.<br />
+          Pokud hovor nezvednu, ozvu se vám zpět.
+        </p>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="tel:+420724094308" aria-label="Zavolat">
+            <div class="icon">
+              <!-- ikona mobil -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm5 19a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM7 5h10v12H7V5z"
+                />
+              </svg>
+            </div>
+            <div class="contact-meta">
+              <div class="label">TELEFON</div>
+              <div class="value">724 094 308</div>
+            </div>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://instagram.com/kosmeticke_studio_iva"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <div class="icon">
+              <!-- ikona instagram -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.5-.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"
+                />
+              </svg>
+            </div>
+            <div class="contact-meta">
+              <div class="label">INSTAGRAM</div>
+              <div class="value">@kosmeticke_studio_iva</div>
+            </div>
+          </a>
+
+          <div class="contact-card contact-card-wide">
+            <div class="icon">
+              <!-- ikona umisteni -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 22s7-4.4 7-12a7 7 0 1 0-14 0c0 7.6 7 12 7 12zm0-9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"
+                />
+              </svg>
+            </div>
+            <div class="contact-meta">
+              <div class="label">KDE MĚ NAJDETE</div>
+              <div class="value">
+                Jiráskova ulice, Přerov —
+                <em
+                  >studio se nachází ve dvoře, vedle zlatnictví, v 1. patře</em
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          © <span id="year"></span> Kosmetické studio Iva · Provozovatel: Ivana
+          Postová, IČO: 73875031
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
