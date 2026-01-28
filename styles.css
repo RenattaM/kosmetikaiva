@@ -293,11 +293,10 @@ a {
 }
 
 .quote-text {
-  font-family: "Playfair Display", serif;
   margin: 0 auto 18px;
   color: var(--green);
   font-style: italic;
-  font-size: 22px;
+  font-size: 26px;
 }
 .quote-person {
   display: grid;
